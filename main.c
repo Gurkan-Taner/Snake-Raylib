@@ -152,7 +152,6 @@ void init_game(SnakeArray *snake, PlayerLog *player_log, size_t *dir, bool *is_d
 int main(void)
 {
 	srand(time(NULL));
-	// Init array of snake
 	SnakeArray snake = {0};
 	Apple apple = {0};
 	generate_apple(&apple);
